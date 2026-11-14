@@ -1,0 +1,13 @@
+# Claude Code (personal)
+.claude/settings.local.json
+CLAUDE.local.md
+AGENTS.local.md
+
+# Secretos
+.env
+.env.*
+!.env.example
+secrets/
+
+# Datos reales de clientes (usar solo datos sintéticos en el repo)
+data/private/
