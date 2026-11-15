@@ -1,0 +1,59 @@
+{
+  "empresa": "CorAll D&R",
+  "ciudad": "Trujillo, Perú",
+  "fuente": "Manual de Marca 2025 (resumen en docs/estudio-marketing.md, sección 8.2)",
+  "paleta": {
+    "rojo": "#BF1820",
+    "marron": "#534437",
+    "negro": "#0E0B09",
+    "blanco": "#FFFFFF",
+    "isotipo_rojo": "#A31924"
+  },
+  "reglas_color": [
+    "#BF1820 es el rojo de branding para fondos, textos y elementos",
+    "#A31924 solo dentro del isotipo",
+    "#534437 opcional como acento cálido"
+  ],
+  "tipografias": {
+    "marca": "Artegra Soft Condensed",
+    "acento": "Zapf Calligraphic 801",
+    "texto": "Poppins"
+  },
+  "logos": {
+    "negro": "brand/assets/logo-negro.png",
+    "blanco": "brand/assets/logo-blanco.png",
+    "judge_gray": "brand/assets/logo-judge-gray.png",
+    "isotipo": "brand/assets/isotipo.png"
+  },
+  "reglas_logo": [
+    "no cambiar color, tipografía ni forma",
+    "no inclinar ni poner bordes",
+    "zona de protección igual a la altura de la C",
+    "sobre fondo sólido o foto que garantice legibilidad"
+  ],
+  "esloganes": [
+    "Innovación que transforma",
+    "Innovación que genera valor",
+    "Soluciones tecnológicas a medida",
+    "Tecnología aplicada a la agroindustria"
+  ],
+  "areas": ["innovacion", "software", "ia", "hardware"],
+  "sectores": ["logística y transporte", "educación", "agroindustria", "minería", "cuero y calzado"],
+  "tono": "directo, técnico y cercano; español peruano profesional; primera persona plural; tú en los llamados a la acción; sin jerga interna; máximo un emoji de apertura",
+  "temas_prohibidos": [
+    "rutas, endpoints, tablas, variables, issues o PR",
+    "vulnerabilidades, incidentes, riesgos o deuda técnica",
+    "bloqueos o conflictos con terceros",
+    "trabajo en progreso o en revisión",
+    "nombres de clientes o personas sin autorización, teléfonos, correos o datos personales",
+    "horas trabajadas y costos",
+    "promesas absolutas no respaldadas por el reporte"
+  ],
+  "hashtag_marca": "#CorAll",
+  "plataformas": {
+    "linkedin": {"hashtags": [3, 5], "ratios": ["4:5", "1.91:1", "1:1"]},
+    "facebook": {"deriva_de": "linkedin"},
+    "instagram": {"hashtags": [5, 8], "ratios": ["4:5", "1:1"]},
+    "tiktok": {"hashtags": [3, 5], "ratios": ["9:16"], "entrega": "guion"}
+  }
+}
