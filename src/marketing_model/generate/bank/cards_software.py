@@ -222,28 +222,28 @@ Corte, aparado, armado y despacho: tu comprador lo ve en el portal sin llamar a 
     dict(
         id="sw09", area="software", sector="educación", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmado el taller de difusión del ERP para mypes: jueves 27 de noviembre, 16:00 a 18:00, en la sede de CorAll en Trujillo; ingreso libre con registro previo; cofinanciado por un programa público de innovación",
+        det="Confirmado el taller de difusión del ERP para mypes: jueves 26 de noviembre, 16:00 a 18:00, en la sede de CorAll en Trujillo; ingreso libre con registro previo; cofinanciado por un programa público de innovación",
         fuente="Taller de difusión del ERP para mypes", valor=5,
         razon="Evento confirmado con fecha, hora, lugar y registro; ideal para convocatoria.",
         li="""¿Tu mype sigue gestionando todo en hojas de cálculo? Te invitamos a ver otra forma de hacerlo.
 
 Realizaremos el taller de difusión de nuestro ERP para mypes, donde mostraremos cómo ordenar personal, clientes y soporte en una sola plataforma.
 
-📅 Jueves 27 de noviembre
+📅 Jueves 26 de noviembre
 🕓 16:00 a 18:00
 📍 Sede de CorAll, Trujillo
 
 Ingreso libre con registro previo. Te esperamos.""",
-        fb="Taller gratuito de difusión del ERP para mypes: jueves 27 de noviembre, 16:00 a 18:00, en nuestra sede de Trujillo. Regístrate en el enlace.",
+        fb="Taller gratuito de difusión del ERP para mypes: jueves 26 de noviembre, 16:00 a 18:00, en nuestra sede de Trujillo. Regístrate en el enlace.",
         ig="""📣 Taller ERP para mypes.
-Jueves 27 de noviembre, 16:00 a 18:00, sede de CorAll en Trujillo. Ingreso libre con registro previo.""",
+Jueves 26 de noviembre, 16:00 a 18:00, sede de CorAll en Trujillo. Ingreso libre con registro previo.""",
         tt=[("Hojas de cálculo desordenadas", "¿Tu negocio vive en hojas de cálculo?"),
             ("Pantalla del ERP ordenada", "Ven a conocer nuestro ERP para mypes."),
-            ("Sala preparada para el taller", "Jueves 27 de noviembre, 16:00. Ingreso libre con registro.")],
-        tit="Taller ERP para mypes", bul=[("Jueves 27 de noviembre", "De 16:00 a 18:00."),
+            ("Sala preparada para el taller", "Jueves 26 de noviembre, 16:00. Ingreso libre con registro.")],
+        tit="Taller ERP para mypes", bul=[("Jueves 26 de noviembre", "De 16:00 a 18:00."),
                                           ("Sede de CorAll", "Trujillo."),
                                           ("Ingreso libre", "Con registro previo.")],
-        dato="Jueves 27 de noviembre, 16:00", cta="Regístrate",
+        dato="Jueves 26 de noviembre, 16:00", cta="Regístrate",
         tags=["#Mypes", "#ERP", "#TallerGratuito", "#Trujillo"],
         vis="Modern seminar room with a projector screen and empty chairs, red and black geometric accents",
     ),

@@ -15,7 +15,8 @@ CLIENTS = [c for pool in CLIENTS_BY_SECTOR.values() for c in pool]
 NONPUB_SECTOR = {
     "ns08": "agroindustria", "nh04": "logística y transporte", "nh11": "minería",
     "nh16": "logística y transporte", "nn08": "agroindustria", "ni05": "agroindustria",
-    "nn02": "cuero y calzado",
+    "nn02": "cuero y calzado", "nh35": "agroindustria", "nh38": "logística y transporte",
+    "ni37": "logística y transporte", "nn34": "agroindustria", "nn39": "cuero y calzado",
 }
 
 PERSONS = [

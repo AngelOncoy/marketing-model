@@ -269,57 +269,57 @@ Kits de robótica, IoT y estación de clima, con guía para docentes.""",
     dict(
         id="mx10", area="software", sector="educación", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmado el webinar 'Vende por WhatsApp sin perder pedidos': jueves 11 de diciembre, 19:00, gratuito, transmisión por las redes de CorAll",
+        det="Confirmado el webinar 'Vende por WhatsApp sin perder pedidos': jueves 10 de diciembre, 19:00, gratuito, transmisión por las redes de CorAll",
         fuente="Webinar sobre ventas por WhatsApp", valor=4,
         razon="Evento propio confirmado con fecha y canal.",
         li="""¿Vendes por WhatsApp y se te pierden pedidos entre los chats?
 
 Te invitamos a nuestro webinar gratuito "Vende por WhatsApp sin perder pedidos", donde mostraremos cómo ordenar tus pedidos con herramientas simples.
 
-📅 Jueves 11 de diciembre
+📅 Jueves 10 de diciembre
 🕖 19:00
 📍 En vivo por nuestras redes
 
 Ideal para mypes y emprendimientos. Te esperamos.""",
-        fb="Webinar gratuito 'Vende por WhatsApp sin perder pedidos': jueves 11 de diciembre, 19:00, en vivo por nuestras redes.",
+        fb="Webinar gratuito 'Vende por WhatsApp sin perder pedidos': jueves 10 de diciembre, 19:00, en vivo por nuestras redes.",
         ig="""📲 Vende por WhatsApp sin perder pedidos.
-Webinar gratuito, jueves 11 de diciembre, 19:00, en vivo por nuestras redes.""",
+Webinar gratuito, jueves 10 de diciembre, 19:00, en vivo por nuestras redes.""",
         tt=[("Celular con muchos chats", "¿Se te pierden pedidos en WhatsApp?"),
             ("Pedidos ordenados en una lista", "Te enseñamos a ordenarlos con herramientas simples."),
-            ("Fecha en pantalla", "Webinar gratuito, jueves 11 de diciembre, 19:00.")],
-        tit="Vende sin perder pedidos", bul=[("Jueves 11 de diciembre", "A las 19:00."),
+            ("Fecha en pantalla", "Webinar gratuito, jueves 10 de diciembre, 19:00.")],
+        tit="Vende sin perder pedidos", bul=[("Jueves 10 de diciembre", "A las 19:00."),
                                              ("Gratuito", "En vivo por redes."),
                                              ("Para mypes", "Y emprendimientos.")],
-        dato="Jueves 11 de diciembre, 19:00", cta="Agenda la fecha",
+        dato="Jueves 10 de diciembre, 19:00", cta="Agenda la fecha",
         tags=["#WhatsApp", "#Ventas", "#Mypes", "#WebinarGratuito"],
         vis="Smartphone with chat bubbles transforming into an organized order list, red accents",
     ),
     dict(
         id="mx11", area="hardware", sector="agroindustria", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmada la demostración en campo de sensores para riego: viernes 12 de diciembre, 8:00 a 11:00, en un fundo aliado de Virú que autorizó el evento; cupo de 15 productores",
+        det="Confirmada la demostración en campo de sensores para riego: viernes 11 de diciembre, 8:00 a 11:00, en un fundo aliado de Virú que autorizó el evento; cupo de 15 productores",
         fuente="Demostración de sensores de riego en campo", valor=4,
         razon="Evento confirmado con autorización del anfitrión; sin datos sensibles.",
         li="""Ver para creer: sensores de riego funcionando en un campo real.
 
 Te invitamos a una demostración en campo, donde verás cómo los sensores de humedad de suelo y la estación de clima ayudan a decidir el riego.
 
-📅 Viernes 12 de diciembre
+📅 Viernes 11 de diciembre
 🕗 8:00 a 11:00
 📍 Fundo aliado en Virú
 👥 15 cupos para productores
 
 Inscripción previa en el enlace.""",
-        fb="Demostración en campo de sensores para riego: viernes 12 de diciembre, 8:00 a 11:00, en un fundo de Virú. Solo 15 cupos para productores.",
+        fb="Demostración en campo de sensores para riego: viernes 11 de diciembre, 8:00 a 11:00, en un fundo de Virú. Solo 15 cupos para productores.",
         ig="""🌱 Sensores de riego, en campo.
-Viernes 12 de diciembre, 8:00 a 11:00, en un fundo de Virú. 15 cupos para productores.""",
+Viernes 11 de diciembre, 8:00 a 11:00, en un fundo de Virú. 15 cupos para productores.""",
         tt=[("Campo regado al amanecer", "¿Quieres ver sensores de riego funcionando en un campo real?"),
             ("Sensor de suelo y estación de clima", "Te mostramos cómo ayudan a decidir el riego."),
-            ("Fecha en pantalla", "Viernes 12 de diciembre, 8:00, en Virú. 15 cupos.")],
-        tit="Sensores de riego en campo", bul=[("Viernes 12 de diciembre", "De 8:00 a 11:00."),
+            ("Fecha en pantalla", "Viernes 11 de diciembre, 8:00, en Virú. 15 cupos.")],
+        tit="Sensores de riego en campo", bul=[("Viernes 11 de diciembre", "De 8:00 a 11:00."),
                                                ("Fundo en Virú", "Campo real."),
                                                ("15 cupos", "Para productores.")],
-        dato="Viernes 12 de diciembre, 8:00", cta="Inscríbete",
+        dato="Viernes 11 de diciembre, 8:00", cta="Inscríbete",
         tags=["#AgriculturaDePrecisión", "#Riego", "#Agroindustria", "#Virú"],
         vis="Irrigated green field at sunrise with a soil sensor and a weather station in the foreground",
     ),
@@ -355,28 +355,28 @@ Sábados 10, 17 y 24 de enero, 9:00 a 13:00, en Trujillo. 20 cupos.""",
     dict(
         id="mx13", area="innovacion", sector="cuero y calzado", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmada la mesa de trabajo 'Calzado 4.0' con fabricantes de El Porvenir: miércoles 10 de diciembre, 16:00 a 18:00, en un auditorio municipal que confirmó la reserva; ingreso libre con registro",
+        det="Confirmada la mesa de trabajo 'Calzado 4.0' con fabricantes de El Porvenir: miércoles 9 de diciembre, 16:00 a 18:00, en un auditorio municipal que confirmó la reserva; ingreso libre con registro",
         fuente="Mesa de trabajo Calzado 4.0", valor=4,
         razon="Evento confirmado con fecha y lugar; dirigido al sector.",
         li="""¿Cómo se ve la Industria 4.0 en un taller de calzado de El Porvenir?
 
 Te invitamos a la mesa de trabajo "Calzado 4.0", donde fabricantes y tecnólogos conversaremos sobre conteo de producción, control de calidad y pedidos digitales.
 
-📅 Miércoles 10 de diciembre
+📅 Miércoles 9 de diciembre
 🕓 16:00 a 18:00
 📍 Auditorio municipal de El Porvenir
 
 Ingreso libre con registro previo.""",
-        fb="Mesa de trabajo 'Calzado 4.0' con fabricantes de El Porvenir: miércoles 10 de diciembre, 16:00 a 18:00. Ingreso libre con registro.",
+        fb="Mesa de trabajo 'Calzado 4.0' con fabricantes de El Porvenir: miércoles 9 de diciembre, 16:00 a 18:00. Ingreso libre con registro.",
         ig="""👞 Calzado 4.0.
-Mesa de trabajo con fabricantes de El Porvenir, miércoles 10 de diciembre, 16:00. Ingreso libre con registro.""",
+Mesa de trabajo con fabricantes de El Porvenir, miércoles 9 de diciembre, 16:00. Ingreso libre con registro.""",
         tt=[("Taller de calzado tradicional", "¿Cómo se ve la Industria 4.0 en un taller de calzado?"),
             ("Contador de pares y tablet", "Hablemos de conteo, calidad y pedidos digitales."),
-            ("Fecha en pantalla", "Miércoles 10 de diciembre, 16:00, en El Porvenir.")],
-        tit="Calzado 4.0", bul=[("Miércoles 10 de diciembre", "De 16:00 a 18:00."),
+            ("Fecha en pantalla", "Miércoles 9 de diciembre, 16:00, en El Porvenir.")],
+        tit="Calzado 4.0", bul=[("Miércoles 9 de diciembre", "De 16:00 a 18:00."),
                                 ("El Porvenir", "Auditorio municipal."),
                                 ("Ingreso libre", "Con registro.")],
-        dato="Miércoles 10 de diciembre, 16:00", cta="Regístrate",
+        dato="Miércoles 9 de diciembre, 16:00", cta="Regístrate",
         tags=["#Calzado", "#Industria40", "#ElPorvenir", "#Innovación"],
         vis="Traditional shoe workshop table with leather pieces and a modern tablet, red geometric shapes",
     ),

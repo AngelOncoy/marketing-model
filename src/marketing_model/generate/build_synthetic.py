@@ -4,7 +4,7 @@ The bank (generate/bank/) holds the creative content: publishable tasks with the
 and non-publishable tasks (distractors). This script composes reports in CorAll's real format,
 mixes cards with distractors, varies the design brief and writes one JSONL row per report.
 
-Usage: python -m marketing_model.generate.build_synthetic --n 250 --seed 42
+Usage: python -m marketing_model.generate.build_synthetic --n 500 --seed 42
 """
 
 from __future__ import annotations
@@ -24,7 +24,7 @@ from marketing_model.generate.bank.context import (
 )
 from marketing_model.generate.bank.wip import WIP_DET
 
-VERSION = "0.1"
+VERSION = "0.2"
 OUT = ROOT / "data" / "synthetic" / f"synthetic_v{VERSION}.raw.jsonl"
 
 INSTRUCTION = (
@@ -316,8 +316,8 @@ def project_of(card: dict | None, area: str, rng: random.Random) -> str:
     return INTERNAL_PROJECTS[area]
 
 
-def build_row(kind: str, card: dict | None, rng: random.Random, day: date, brand: dict, idx: int) -> dict:
-    area = card["area"] if card else rng.choice(["software", "hardware", "ia", "innovacion"])
+def build_row(kind: str, card: dict | None, area: str, rng: random.Random, day: date, brand: dict,
+              idx: int) -> dict:
     rows: list[tuple[dict, str]] = []
     ideas: list[dict] = []
     k = rng.choices([0, 1, 2, 3], [2, 4, 3, 1])[0] if kind == "publish" else rng.choices([1, 2, 3], [3, 4, 3])[0]
@@ -359,25 +359,45 @@ def split_of(group: str) -> str:
     return "val" if int(hashlib.sha256(group.encode()).hexdigest(), 16) % 10 == 0 else "train"
 
 
-def plan(n: int, rng: random.Random) -> list[tuple[str, dict | None]]:
-    n_discard = round(n * 0.28)
+AREAS = ["software", "hardware", "ia", "innovacion"]
+DISCARD_RATE = 0.28
+
+
+def shares(total: int, weights: dict[str, int]) -> dict[str, int]:
+    """Split `total` proportionally to `weights` (largest remainder), so every area gets its fair part."""
+    s = sum(weights.values())
+    raw = {k: total * w / s for k, w in weights.items()}
+    out = {k: int(v) for k, v in raw.items()}
+    for k in sorted(raw, key=lambda k: raw[k] - out[k], reverse=True)[: total - sum(out.values())]:
+        out[k] += 1
+    return out
+
+
+def plan(n: int, rng: random.Random) -> list[tuple[str, dict | None, str]]:
+    """Jobs (kind, card, area). Cards are used in full shuffled passes, so no card is published more
+    than once per pass; discards are split per area in proportion to its publications, which keeps the
+    publish rate equal across areas (D1)."""
+    n_discard = round(n * DISCARD_RATE)
     n_publish = n - n_discard
-    cards = list(CARDS)
-    rng.shuffle(cards)
-    jobs = [("publish", c) for c in cards[:n_publish]]
-    extra = n_publish - len(jobs)
-    jobs += [("publish", rng.choice(cards)) for _ in range(max(0, extra))]
-    wip_cards = [c for c in cards if c["id"] in WIP_DET]
-    n_wip = n_discard // 3
-    jobs += [("wip", rng.choice(wip_cards)) for _ in range(n_wip)]
-    jobs += [("discard", None) for _ in range(n_discard - n_wip)]
+    published: list[dict] = []
+    while len(published) < n_publish:
+        batch = list(CARDS)
+        rng.shuffle(batch)
+        published += batch[: n_publish - len(published)]
+    jobs = [("publish", c, c["area"]) for c in published]
+    per_area = {a: sum(c["area"] == a for c in published) for a in AREAS}
+    for area, k in shares(n_discard, per_area).items():
+        wip_pool = [c for c in CARDS if c["area"] == area and c["id"] in WIP_DET]
+        n_wip = k // 3
+        jobs += [("wip", rng.choice(wip_pool), area) for _ in range(n_wip)]
+        jobs += [("discard", None, area) for _ in range(k - n_wip)]
     rng.shuffle(jobs)
     return jobs
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--n", type=int, default=250)
+    ap.add_argument("--n", type=int, default=500)
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--out", type=Path, default=OUT)
     args = ap.parse_args()
@@ -385,9 +405,9 @@ def main() -> None:
     brand = load_brand()
     start = date(2026, 9, 1)
     rows = []
-    for i, (kind, card) in enumerate(plan(args.n, rng), 1):
+    for i, (kind, card, area) in enumerate(plan(args.n, rng), 1):
         day = start + timedelta(days=rng.randint(0, 75))
-        rows.append(build_row(kind, card, rng, day, brand, i))
+        rows.append(build_row(kind, card, area, rng, day, brand, i))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     with args.out.open("w", encoding="utf-8", newline="\n") as f:
         for r in rows:

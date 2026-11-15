@@ -1,0 +1,50 @@
+{
+  "archivo": "synthetic_v0.2.jsonl",
+  "filas_generadas": 500,
+  "filas_limpias": 500,
+  "eliminadas_por_motivo": {},
+  "grupos": 281,
+  "por_split": {
+    "train": 436,
+    "val": 64
+  },
+  "por_decision": {
+    "publicar": 360,
+    "descartar": 140
+  },
+  "por_tipo_de_fila": {
+    "publish": 360,
+    "discard": 96,
+    "wip": 44
+  },
+  "por_area": {
+    "hardware": 126,
+    "innovacion": 125,
+    "ia": 125,
+    "software": 124
+  },
+  "por_pilar": {
+    "producto": 135,
+    "-": 96,
+    "educativo": 75,
+    "servicio_territorio": 50,
+    "hito": 48,
+    "evento": 37,
+    "cultura": 34,
+    "catalogo": 25
+  },
+  "por_tipo_proyecto": {
+    "interno": 232,
+    "cliente": 172,
+    "-": 96
+  },
+  "tasa_publicacion_por_area": {
+    "hardware": 0.722,
+    "ia": 0.72,
+    "innovacion": 0.72,
+    "software": 0.718
+  },
+  "errores_detectados": {},
+  "chars_promedio_input": 1770,
+  "chars_promedio_output": 2471
+}

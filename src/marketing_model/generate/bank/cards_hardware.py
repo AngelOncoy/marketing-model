@@ -167,29 +167,29 @@ Temperatura, humedad, radiación y lluvia enviadas por LoRa a 2 km del gateway. 
     dict(
         id="hw07", area="hardware", sector="educación", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmado el taller práctico 'Tu primer prototipo IoT' para estudiantes: sábado 29 de noviembre, de 9:00 a 13:00, en la sede de CorAll en Trujillo; cupo de 20 personas e inscripción por formulario",
+        det="Confirmado el taller práctico 'Tu primer prototipo IoT' para estudiantes: sábado 28 de noviembre, de 9:00 a 13:00, en la sede de CorAll en Trujillo; cupo de 20 personas e inscripción por formulario",
         fuente="Taller práctico de prototipos IoT", valor=4,
         razon="Evento propio confirmado con fecha, hora y lugar; ideal para convocatoria.",
         li="""¿Nunca has armado un dispositivo IoT? Este sábado puede ser el primero.
 
 Te invitamos al taller práctico "Tu primer prototipo IoT", pensado para estudiantes que quieren pasar de la teoría a un circuito que funciona.
 
-Sábado 29 de noviembre
+Sábado 28 de noviembre
 De 9:00 a 13:00
 Sede de CorAll en Trujillo
 Cupo: 20 personas
 
 Trabajarás con sensores reales y verás cómo el dato llega a una plataforma. Inscríbete con el formulario del enlace.""",
-        fb="Taller práctico 'Tu primer prototipo IoT': sábado 29 de noviembre, de 9:00 a 13:00, en nuestra sede de Trujillo. Solo 20 cupos. Inscríbete en el enlace.",
+        fb="Taller práctico 'Tu primer prototipo IoT': sábado 28 de noviembre, de 9:00 a 13:00, en nuestra sede de Trujillo. Solo 20 cupos. Inscríbete en el enlace.",
         ig="""🔧 Arma tu primer prototipo IoT.
-Sábado 29 de noviembre, 9:00 a 13:00, sede de CorAll en Trujillo. Solo 20 cupos. Inscripción en el enlace de la biografía.""",
+Sábado 28 de noviembre, 9:00 a 13:00, sede de CorAll en Trujillo. Solo 20 cupos. Inscripción en el enlace de la biografía.""",
         tt=[("Mesa con placas, sensores y cables", "¿Quieres armar tu primer dispositivo IoT?"),
             ("Manos conectando un sensor a una placa", "En nuestro taller trabajarás con sensores reales."),
-            ("Pantalla con los datos del prototipo", "Sábado 29 de noviembre, de 9:00 a 13:00. Solo 20 cupos.")],
-        tit="Tu primer prototipo IoT", bul=[("Sábado 29 de noviembre", "Un taller práctico de medio día."),
+            ("Pantalla con los datos del prototipo", "Sábado 28 de noviembre, de 9:00 a 13:00. Solo 20 cupos.")],
+        tit="Tu primer prototipo IoT", bul=[("Sábado 28 de noviembre", "Un taller práctico de medio día."),
                                             ("9:00 a 13:00", "Con sensores y placas reales."),
                                             ("Solo 20 cupos", "Inscripción por formulario.")],
-        dato="Sábado 29 de noviembre, 9:00 a 13:00", cta="Inscríbete",
+        dato="Sábado 28 de noviembre, 9:00 a 13:00", cta="Inscríbete",
         tags=["#TallerIoT", "#Estudiantes", "#Educación", "#Trujillo"],
         vis="Workbench with microcontroller boards, sensors and jumper cables arranged neatly, top view",
     ),

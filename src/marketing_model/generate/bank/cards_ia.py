@@ -217,28 +217,28 @@ Analizamos la vibración de 5 bombas cada hora. En prueba, el modelo anticipó 2
     dict(
         id="ia09", area="ia", sector="educación", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmada la charla abierta 'IA para tu negocio sin humo': viernes 5 de diciembre, 18:30, transmisión en vivo por las redes de CorAll; dirigida a mypes y estudiantes",
+        det="Confirmada la charla abierta 'IA para tu negocio sin humo': viernes 4 de diciembre, 18:30, transmisión en vivo por las redes de CorAll; dirigida a mypes y estudiantes",
         fuente="Charla abierta sobre IA para negocios", valor=4,
         razon="Evento propio confirmado con fecha y canal; ideal para convocatoria.",
         li="""Inteligencia artificial para tu negocio, sin humo.
 
 Te invitamos a nuestra charla abierta para mypes y estudiantes, donde hablaremos con ejemplos reales de qué puede hacer la IA hoy, qué no y cómo empezar con poco.
 
-📅 Viernes 5 de diciembre
+📅 Viernes 4 de diciembre
 🕡 18:30
 📍 En vivo por nuestras redes
 
 Trae tus preguntas. Te esperamos.""",
-        fb="Charla abierta 'IA para tu negocio sin humo': viernes 5 de diciembre, 18:30, en vivo por nuestras redes. Para mypes y estudiantes.",
+        fb="Charla abierta 'IA para tu negocio sin humo': viernes 4 de diciembre, 18:30, en vivo por nuestras redes. Para mypes y estudiantes.",
         ig="""🎙️ IA para tu negocio, sin humo.
-Charla abierta, viernes 5 de diciembre, 18:30, en vivo por nuestras redes. Trae tus preguntas.""",
+Charla abierta, viernes 4 de diciembre, 18:30, en vivo por nuestras redes. Trae tus preguntas.""",
         tt=[("Palabras de moda sobre IA tachándose", "¿Cansado de promesas sobre inteligencia artificial?"),
             ("Ejemplos reales en pantalla", "Hablemos con ejemplos reales de lo que sí puede hacer."),
-            ("Fecha en pantalla", "Viernes 5 de diciembre, 18:30, en vivo.")],
-        tit="IA para tu negocio, sin humo", bul=[("Viernes 5 de diciembre", "A las 18:30."),
+            ("Fecha en pantalla", "Viernes 4 de diciembre, 18:30, en vivo.")],
+        tit="IA para tu negocio, sin humo", bul=[("Viernes 4 de diciembre", "A las 18:30."),
                                                  ("En vivo", "Por nuestras redes."),
                                                  ("Ejemplos reales", "Para mypes y estudiantes.")],
-        dato="Viernes 5 de diciembre, 18:30", cta="Agenda la fecha",
+        dato="Viernes 4 de diciembre, 18:30", cta="Agenda la fecha",
         tags=["#InteligenciaArtificial", "#Mypes", "#CharlaGratuita", "#Emprendimiento"],
         vis="Microphone and laptop on a stage with soft red spotlight and abstract neural network lines",
     ),
@@ -459,29 +459,29 @@ No pegues datos de clientes en herramientas externas, anonimiza y usa modelos pr
     dict(
         id="ia18", area="ia", sector="cuero y calzado", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmada la demostración de visión artificial para el sector calzado en la sede de CorAll: miércoles 3 de diciembre, 10:00 a 12:00, cupo de 25 personas, inscripción previa",
+        det="Confirmada la demostración de visión artificial para el sector calzado en la sede de CorAll: miércoles 2 de diciembre, 10:00 a 12:00, cupo de 25 personas, inscripción previa",
         fuente="Demostración de visión artificial para calzado", valor=4,
         razon="Evento confirmado con fecha, lugar y cupo.",
         li="""¿Cómo puede ayudar la visión artificial en tu fábrica de calzado? Ven a verlo funcionando.
 
 Organizamos una demostración práctica para el sector calzado, con ejemplos de inspección de costuras y conteo de pares.
 
-📅 Miércoles 3 de diciembre
+📅 Miércoles 2 de diciembre
 🕙 10:00 a 12:00
 📍 Sede de CorAll, Trujillo
 👥 Cupo: 25 personas
 
 Inscripción previa en el enlace.""",
-        fb="Demostración de visión artificial para calzado: miércoles 3 de diciembre, 10:00 a 12:00, en nuestra sede de Trujillo. Solo 25 cupos.",
+        fb="Demostración de visión artificial para calzado: miércoles 2 de diciembre, 10:00 a 12:00, en nuestra sede de Trujillo. Solo 25 cupos.",
         ig="""👞 Visión artificial para calzado, en vivo.
-Miércoles 3 de diciembre, 10:00 a 12:00, sede de CorAll en Trujillo. 25 cupos con inscripción previa.""",
+Miércoles 2 de diciembre, 10:00 a 12:00, sede de CorAll en Trujillo. 25 cupos con inscripción previa.""",
         tt=[("Pares de calzado en una línea", "¿Qué puede hacer la visión artificial en tu fábrica?"),
             ("Cámara marcando costuras", "Ven a ver inspección de costuras y conteo de pares."),
-            ("Fecha en pantalla", "Miércoles 3 de diciembre, 10:00. Solo 25 cupos.")],
-        tit="Visión artificial para calzado", bul=[("Miércoles 3 de diciembre", "De 10:00 a 12:00."),
+            ("Fecha en pantalla", "Miércoles 2 de diciembre, 10:00. Solo 25 cupos.")],
+        tit="Visión artificial para calzado", bul=[("Miércoles 2 de diciembre", "De 10:00 a 12:00."),
                                                    ("Sede de CorAll", "Trujillo."),
                                                    ("25 cupos", "Inscripción previa.")],
-        dato="Miércoles 3 de diciembre, 10:00", cta="Inscríbete",
+        dato="Miércoles 2 de diciembre, 10:00", cta="Inscríbete",
         tags=["#Calzado", "#VisiónArtificial", "#Trujillo", "#Industria40"],
         vis="Demo table with a camera on a stand pointing at a shoe, red and black geometric shapes",
     ),

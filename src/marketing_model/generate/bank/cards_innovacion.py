@@ -57,29 +57,29 @@ Industria 4.0 aplicada a una industria tradicional. ¿Tu línea necesita visibil
     dict(
         id="in03", area="innovacion", sector="educación", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmado el taller 'Innovación abierta para mypes de La Libertad': martes 9 de diciembre, 15:00 a 18:00, sede de CorAll en Trujillo, con 30 cupos; cofinanciado por un programa público de innovación",
+        det="Confirmado el taller 'Innovación abierta para mypes de La Libertad': martes 8 de diciembre, 15:00 a 18:00, sede de CorAll en Trujillo, con 30 cupos; cofinanciado por un programa público de innovación",
         fuente="Taller de innovación abierta para mypes", valor=5,
         razon="Evento confirmado con fecha, lugar y cupos; ideal para convocatoria.",
         li="""Las mejores ideas para tu negocio pueden venir de fuera de tu negocio.
 
 Te invitamos al taller "Innovación abierta para mypes de La Libertad", donde trabajaremos con casos reales cómo resolver problemas junto a clientes, proveedores y universidades.
 
-📅 Martes 9 de diciembre
+📅 Martes 8 de diciembre
 🕒 15:00 a 18:00
 📍 Sede de CorAll, Trujillo
 👥 30 cupos
 
 Inscríbete en el enlace.""",
-        fb="Taller 'Innovación abierta para mypes de La Libertad': martes 9 de diciembre, 15:00 a 18:00, sede de CorAll en Trujillo. 30 cupos.",
+        fb="Taller 'Innovación abierta para mypes de La Libertad': martes 8 de diciembre, 15:00 a 18:00, sede de CorAll en Trujillo. 30 cupos.",
         ig="""💡 Innovación abierta para mypes.
-Martes 9 de diciembre, 15:00 a 18:00, sede de CorAll en Trujillo. Solo 30 cupos.""",
+Martes 8 de diciembre, 15:00 a 18:00, sede de CorAll en Trujillo. Solo 30 cupos.""",
         tt=[("Notas adhesivas en una pared", "¿Y si la solución a tu problema viene de fuera?"),
             ("Mesa de trabajo colaborativo (sin rostros)", "Ven al taller de innovación abierta para mypes."),
-            ("Fecha en pantalla", "Martes 9 de diciembre, 15:00. 30 cupos.")],
-        tit="Innovación abierta para mypes", bul=[("Martes 9 de diciembre", "De 15:00 a 18:00."),
+            ("Fecha en pantalla", "Martes 8 de diciembre, 15:00. 30 cupos.")],
+        tit="Innovación abierta para mypes", bul=[("Martes 8 de diciembre", "De 15:00 a 18:00."),
                                                   ("Sede de CorAll", "Trujillo."),
                                                   ("30 cupos", "Inscripción en el enlace.")],
-        dato="Martes 9 de diciembre, 15:00", cta="Inscríbete",
+        dato="Martes 8 de diciembre, 15:00", cta="Inscríbete",
         tags=["#InnovaciónAbierta", "#Mypes", "#LaLibertad", "#Innovación"],
         vis="Workshop wall covered in sticky notes in red, black and white, with geometric shapes",
     ),
@@ -521,28 +521,28 @@ Gracias a la cooperativa por confiar en el proceso. ¿Tu organización quiere da
     dict(
         id="in20", area="innovacion", sector="educación", tipo="interno", pilar="evento",
         sec="anexado", mod="-",
-        det="Confirmada la jornada de puertas abiertas del laboratorio de CorAll para estudiantes universitarios: sábado 13 de diciembre, 10:00 a 13:00, ingreso libre con inscripción",
+        det="Confirmada la jornada de puertas abiertas del laboratorio de CorAll para estudiantes universitarios: sábado 12 de diciembre, 10:00 a 13:00, ingreso libre con inscripción",
         fuente="Puertas abiertas del laboratorio", valor=4,
         razon="Evento confirmado con fecha, hora e inscripción.",
         li="""¿Quieres ver cómo se construye tecnología en Trujillo? Abrimos las puertas de nuestro laboratorio.
 
 Te invitamos a nuestra jornada de puertas abiertas para estudiantes universitarios. Conocerás nuestros prototipos de hardware, demos de inteligencia artificial y cómo trabajamos los proyectos.
 
-📅 Sábado 13 de diciembre
+📅 Sábado 12 de diciembre
 🕙 10:00 a 13:00
 📍 Sede de CorAll, Trujillo
 
 Ingreso libre con inscripción.""",
-        fb="Puertas abiertas en nuestro laboratorio para universitarios: sábado 13 de diciembre, 10:00 a 13:00, sede de CorAll en Trujillo. Ingreso libre con inscripción.",
+        fb="Puertas abiertas en nuestro laboratorio para universitarios: sábado 12 de diciembre, 10:00 a 13:00, sede de CorAll en Trujillo. Ingreso libre con inscripción.",
         ig="""🚪 Puertas abiertas.
-Sábado 13 de diciembre, 10:00 a 13:00. Conoce nuestro laboratorio de hardware e IA. Ingreso libre con inscripción.""",
+Sábado 12 de diciembre, 10:00 a 13:00. Conoce nuestro laboratorio de hardware e IA. Ingreso libre con inscripción.""",
         tt=[("Puerta del laboratorio abriéndose", "Abrimos las puertas de nuestro laboratorio."),
             ("Prototipos y demos de IA", "Conoce nuestros prototipos y demos de inteligencia artificial."),
-            ("Fecha en pantalla", "Sábado 13 de diciembre, 10:00. Ingreso libre con inscripción.")],
-        tit="Conoce nuestro laboratorio", bul=[("Sábado 13 de diciembre", "De 10:00 a 13:00."),
+            ("Fecha en pantalla", "Sábado 12 de diciembre, 10:00. Ingreso libre con inscripción.")],
+        tit="Conoce nuestro laboratorio", bul=[("Sábado 12 de diciembre", "De 10:00 a 13:00."),
                                                ("Hardware e IA", "Demos en vivo."),
                                                ("Ingreso libre", "Con inscripción.")],
-        dato="Sábado 13 de diciembre, 10:00", cta="Inscríbete",
+        dato="Sábado 12 de diciembre, 10:00", cta="Inscríbete",
         tags=["#PuertasAbiertas", "#Universitarios", "#Innovación", "#Trujillo"],
         vis="Open laboratory door revealing workbenches with prototypes, bright inviting light",
     ),
