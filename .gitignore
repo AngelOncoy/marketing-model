@@ -11,3 +11,18 @@ secrets/
 
 # Datos reales de clientes (usar solo datos sintéticos en el repo)
 data/private/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Archivos de marca con licencia (logos, fuentes comerciales)
+brand/assets/
+
+# Dataset sin limpiar (se regenera con build_synthetic)
+data/synthetic/*.raw.jsonl
+
+# Pesos y checkpoints
+outputs/
+*.safetensors

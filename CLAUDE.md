@@ -53,7 +53,10 @@ Orden metodológico obligatorio: **problema de negocio → dataset → familia d
 
 ## Decisiones (completar a medida que se tomen)
 
-- Dataset (fuente, tamaño, formato): _pendiente_
+- Dataset: sintético (banco de tareas escrito por LLM + ensamblado por script) para train/val;
+  test con ~21 reportes reales anonimizados. JSONL instruction/input/output. v0.2 = 500 filas
+  (`data/synthetic/`, ficha en `docs/ficha-dataset.md`), con descartes repartidos por área para
+  igualar la tasa de publicación (D1).
 - Arquitectura: **híbrida aprobada** (LLM autorregresivo + difusión + compositor HTML). Ver `docs/plan.md`.
 - Despliegue: Cloudflare Workers AI (CorAll no tiene GPU). Solo admite LoRA sobre Mistral-7B-Instruct-v0.2,
   Gemma 2B/7B-it y Llama-2-7B-chat (beta); imagen con FLUX.1-schnell.
@@ -80,7 +83,10 @@ Orden metodológico obligatorio: **problema de negocio → dataset → familia d
     modelo alineado. _pendiente_
   - No se adopta: caso ficticio con prompt libre, dataset genérico en inglés, Qwen3/Gemma 3 (no
     desplegables con LoRA en Cloudflare), React + FastAPI.
-- Comandos de build / test / lint: _pendiente_
+- Entorno: `python -m venv .venv` y `.venv/Scripts/python.exe -m pip install -r requirements.txt`.
+- Dataset: `PYTHONPATH=src .venv/Scripts/python.exe -m marketing_model.generate.build_synthetic --n 500 --seed 42`
+  y luego `... -m marketing_model.generate.check_dataset data/synthetic/synthetic_v0.2.raw.jsonl`.
+- Comandos de test / lint: _pendiente_
 
 ## Reglas de trabajo
 
